@@ -1,0 +1,9 @@
+﻿What did I learn? 
+I learnt about core appsetting.json file.
+created constructor of Startup class and used Iconfiguration to fetch "MyKey" from appsetting.json file
+  
+What was challenging, if anything?  
+Different Web hosting servers has different working and as beginner it is new topic for me.
+   
+How did I resolve the challenges or problems when they appeared?  
+no error occured

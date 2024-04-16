@@ -22,9 +22,9 @@ namespace AspDotNetCore31
             var builder = WebApplication.CreateBuilder(args);
             var app = builder.Build();
 
-            app.MapGet("/", () => "Hello From Nawab Zadi");
+            //app.MapGet("/", () => "Hello From Nawab Zadi");
 
-            app.Run();
+            //app.Run();
 
             CreateHostBuilder(args).Build().Run();
         }
