@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/AspDotnetCore31/.vs/AspDotnetCore31/DesignTimeBuild
+/AspDotnetCore31/.vs/AspDotnetCore31
+/AspDotnetCore31/.vs/ProjectEvaluation
+/AspDotnetCore31/AspDotnetCore31/obj
+/AspDotnetCore31/.vs
