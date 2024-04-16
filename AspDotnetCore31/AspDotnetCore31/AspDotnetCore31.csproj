@@ -8,4 +8,8 @@
     <StartupObject>AspDotNetCore31.Partsix</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+  </ItemGroup>
+
 </Project>
