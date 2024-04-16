@@ -32,10 +32,14 @@ namespace AspDotNetCore31
             {
                 endpoints.MapGet("/", async context =>
                 {
+                    await context.Response.WriteAsync("Hello World");
                     //gets the current process name
+
                     await context.Response.WriteAsync(System.Diagnostics.Process.GetCurrentProcess().ProcessName);
                 });
             });
+            //Console.WriteLine("Hello, world!"); // Print "Hello, world!" to the console
+
         }
     }
 }

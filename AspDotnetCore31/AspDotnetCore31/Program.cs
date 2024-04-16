@@ -1,5 +1,4 @@
-
-using Microsoft.AspNetCore.Hosting;
+/*using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -10,18 +9,21 @@ using System.Threading.Tasks;
 
 namespace AspDotNetCore31
 {
-    //public class Program
-    //{
-    //    public static void Main(string[] args)
-    //    {
-    //        CreateHostBuilder(args).Build().Run();
-    //    }
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            //Console.WriteLine("Hello, world!"); // Print "Hello, world!" to the console
 
-    //    public static IHostBuilder CreateHostBuilder(string[] args) =>
-    //        Host.CreateDefaultBuilder(args)
-    //            .ConfigureWebHostDefaults(webBuilder =>
-    //            {
-    //                webBuilder.UseStartup<Startup>();
-    //            });
-    //}
-}
+            CreateHostBuilder(args).Build().Run();
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                    //Console.WriteLine("Hello, world!");
+                });
+    }
+}*/

@@ -4,6 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>False</UseWindowsForms>
+    <StartupObject>AspDotNetCore31.Partsix</StartupObject>
   </PropertyGroup>
 
 </Project>

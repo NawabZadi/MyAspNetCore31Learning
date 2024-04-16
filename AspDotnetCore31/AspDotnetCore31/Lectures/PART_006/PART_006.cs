@@ -13,6 +13,19 @@ namespace AspDotNetCore31
     {
         public static void Main(string[] args)
         {
+            //will write it in console
+            Console.WriteLine("Hello, world!"); // Print "Hello, world!" to the console
+            Console.WriteLine("Hello, world!");
+            Console.WriteLine("Hello, world!");
+            Console.WriteLine("Hello, world!");
+            Console.WriteLine("Hello, world!");
+            var builder = WebApplication.CreateBuilder(args);
+            var app = builder.Build();
+
+            app.MapGet("/", () => "Hello From Nawab Zadi");
+
+            app.Run();
+
             CreateHostBuilder(args).Build().Run();
         }
 
