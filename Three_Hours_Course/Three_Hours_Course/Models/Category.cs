@@ -5,7 +5,7 @@ namespace Three_Hours_Course.Models
 {
     public class Category
     {
-        [Key]
+        [Key]//
         //inside our models folder, we have created 4 rows of 1 table
         //in models folder we create database files
         public int Id { get; set; } //write prop and click tab 2 times it will create property itself
