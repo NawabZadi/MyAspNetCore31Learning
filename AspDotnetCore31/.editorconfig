@@ -1,4 +1,0 @@
-﻿[*.cs]
-
-# CS1555: Could not find 'AspDotNetCore31.Partsix' specified for Main method
-dotnet_diagnostic.CS1555.severity = none
