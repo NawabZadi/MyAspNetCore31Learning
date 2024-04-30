@@ -1,0 +1,8 @@
+﻿What did I learn? 
+I learned about MVC controllers and dependency injections.
+
+What was challenging, if anything?  
+Startup.cs was not visible so I couldn't copy that and also it was not available in the blog.
+
+How did I resolve the challenges or problems when they appeared?  
+unhandled exception and needed stsrtup.cs file changings but since it was not visible, exception caught unhandled
