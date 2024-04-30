@@ -1,13 +1,17 @@
 ﻿What did I learn? 
-I learned about core appsetting.json file.
-I learned how to access configuration information using "IConfiguration Services".
-
-created constructor of Startup class and used Iconfiguration to fetch "MyKey" from appsetting.json file, appsetting.Development.json filw and launchsettings.json file
-the appsettings.Development.json file will override appsettings.json file and launchsettings.json file will override both of the files.
-The config information written on CLI was overdone by every config info written in files and env variable.
+Nothing.
   
 What was challenging, if anything?  
-Different Web hosting servers has different working and as beginner it is new topic for me.
+Too difficult and nothing was understandable
    
 How did I resolve the challenges or problems when they appeared?  
-no error occured
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0234	The type or namespace name 'EntityFramework' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)	PART_19	C:\otherpartsofyoutubelink\PART_19_OF_ASP_NET_Core_Tutorial\PART_19\Models\SQLEmployeeRepositorycs.cs	2	Active
+Error	CS0246	The type or namespace name 'Dept' could not be found (are you missing a using directive or an assembly reference?)	PART_19	C:\otherpartsofyoutubelink\PART_19_OF_ASP_NET_Core_Tutorial\PART_19\Models\Employee.cs	8	Active
+Error	CS0246	The type or namespace name 'AppDbContext' could not be found (are you missing a using directive or an assembly reference?)	PART_19	C:\otherpartsofyoutubelink\PART_19_OF_ASP_NET_Core_Tutorial\PART_19\Models\SQLEmployeeRepositorycs.cs	7	Active
+Error	CS0246	The type or namespace name 'AppDbContext' could not be found (are you missing a using directive or an assembly reference?)	PART_19	C:\otherpartsofyoutubelink\PART_19_OF_ASP_NET_Core_Tutorial\PART_19\Models\SQLEmployeeRepositorycs.cs	9	Active
+Error	CS0103	The name 'Dept' does not exist in the current context	PART_19	C:\otherpartsofyoutubelink\PART_19_OF_ASP_NET_Core_Tutorial\PART_19\Models\MockEmployeRepository.cs	11	Active
+Error	CS0103	The name 'Dept' does not exist in the current context	PART_19	C:\otherpartsofyoutubelink\PART_19_OF_ASP_NET_Core_Tutorial\PART_19\Models\MockEmployeRepository.cs	12	Active
+Error	CS0103	The name 'Dept' does not exist in the current context	PART_19	C:\otherpartsofyoutubelink\PART_19_OF_ASP_NET_Core_Tutorial\PART_19\Models\MockEmployeRepository.cs	13	Active
+Error	CS0234	The type or namespace name 'EntityFrameworkCore' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)	PART_19	C:\otherpartsofyoutubelink\PART_19_OF_ASP_NET_Core_Tutorial\PART_19\Models\SQLEmployeeRepositorycs.cs	45	Active
+Error (active)	CS1061	'IEmployeeRepository' does not contain a definition for 'GetAllEmployees' and no accessible extension method 'GetAllEmployees' accepting a first argument of type 'IEmployeeRepository' could be found (are you missing a using directive or an assembly reference?)	PART_19	C:\otherpartsofyoutubelink\PART_19_OF_ASP_NET_Core_Tutorial\PART_19\Views\Home\Create.cshtml	17	
