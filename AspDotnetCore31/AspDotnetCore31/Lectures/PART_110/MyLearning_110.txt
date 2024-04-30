@@ -1,13 +1,8 @@
 ﻿What did I learn? 
-I learned about core appsetting.json file.
-I learned how to access configuration information using "IConfiguration Services".
+Nothing....
 
-created constructor of Startup class and used Iconfiguration to fetch "MyKey" from appsetting.json file, appsetting.Development.json filw and launchsettings.json file
-the appsettings.Development.json file will override appsettings.json file and launchsettings.json file will override both of the files.
-The config information written on CLI was overdone by every config info written in files and env variable.
-  
 What was challenging, if anything?  
-Different Web hosting servers has different working and as beginner it is new topic for me.
-   
+Whole concept...
+
 How did I resolve the challenges or problems when they appeared?  
-no error occured
+alot didn't know how to resolve them tried but all in vein....
