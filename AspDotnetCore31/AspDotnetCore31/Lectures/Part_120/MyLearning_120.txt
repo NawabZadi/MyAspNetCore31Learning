@@ -1,13 +1,8 @@
 ﻿What did I learn? 
-I learned about core appsetting.json file.
-I learned how to access configuration information using "IConfiguration Services".
-
-created constructor of Startup class and used Iconfiguration to fetch "MyKey" from appsetting.json file, appsetting.Development.json filw and launchsettings.json file
-the appsettings.Development.json file will override appsettings.json file and launchsettings.json file will override both of the files.
-The config information written on CLI was overdone by every config info written in files and env variable.
-  
+I just Got one thing that when user enteer in any of the data that is visible to him the id of that person is still viewable and we want to encrypt that so we do all the things and I didn't get it. 
+ 
 What was challenging, if anything?  
-Different Web hosting servers has different working and as beginner it is new topic for me.
-   
+As a part of the course, I have completed these 7 videos but To be honest I didn't understand a word beacause every concept was related to its previous video and I didn';t watch it.
+
 How did I resolve the challenges or problems when they appeared?  
-no error occured
+I just copy pasted it from the youtube video and didn't understand a word.
